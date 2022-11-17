@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "GooglePlayServicesExtension",
+    "path": "extensions/GooglePlayServicesExtension/GooglePlayServicesExtension.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}

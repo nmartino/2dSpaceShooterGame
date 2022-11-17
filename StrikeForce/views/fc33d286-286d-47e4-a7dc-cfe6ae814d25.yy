@@ -1,0 +1,32 @@
+{
+    "id": "fc33d286-286d-47e4-a7dc-cfe6ae814d25",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "fc33d286-286d-47e4-a7dc-cfe6ae814d25",
+    "children": [
+        "c6d4c983-f45c-46fc-b7d3-5e62f2c0c420",
+        "949d2cdc-131c-44aa-8b43-4f17e8f02a0a",
+        "99d9f957-0d8f-4566-8a15-2b82aa0f0606",
+        "bdf0ed80-a54e-4697-9daf-e292ec023737",
+        "e4270d71-56ae-46f1-9361-12d55a393d25",
+        "9fac1f53-ae49-48e3-b435-4859418c08a4",
+        "c63c0b34-0ee6-450e-8b39-8561fb40e6d5",
+        "a01d9609-8e56-4bcb-9d57-3d8c4cb3411a",
+        "f0465187-b708-441e-a1a4-514c9957e8e0",
+        "73fbdb25-b912-4f59-ad08-9952ba237fbe",
+        "bd334f3c-8b3d-430b-b114-4f0d59582100",
+        "d9e95e80-0e14-48d4-89c1-7c0965d99cc7",
+        "f50c5804-3421-45bf-8803-498cdbaa0b3b",
+        "2bb52140-3ed5-416d-9158-c8d176efbf25",
+        "e5845f4a-67ec-4d5d-93f2-56674065aaf9",
+        "88cf39dd-28b5-47b7-b9fd-a6e415b312ff",
+        "d1f109a1-49a9-424f-a255-228a22b6ea18",
+        "8cba9044-6fe3-4bdd-a08f-f3b86a2d905f",
+        "a2ce4552-1f52-4aac-94c4-c7c482147d22",
+        "faffcf73-3284-4d45-8b0e-1ae37e033f20"
+    ],
+    "filterType": "GMRoom",
+    "folderName": "rooms",
+    "isDefaultView": false,
+    "localisedFolderName": "ResourceTree_Rooms"
+}

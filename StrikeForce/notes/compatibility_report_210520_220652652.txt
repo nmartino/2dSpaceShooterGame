@@ -1,0 +1,706 @@
+Converting GML script: ${project_dir}\scripts\add_screnshake\add_screnshake.gml
+Converted description /// @description add_screnshake(amount,duration)/// @param amount
+/// @param duration
+
+Converting GML script: ${project_dir}\scripts\create_part_type_sprite\create_part_type_sprite.gml
+Converted description /// @description create_part_type_sprite(sprite, blend, min_life, max_life)/// @param sprite
+/// @param  blend
+/// @param  min_life
+/// @param  max_life
+
+Converting GML script: ${project_dir}\scripts\create_explosion\create_explosion.gml
+Converted description /// @description create_explosion(x,y)/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\save_data\save_data.gml
+Converted description /// @description save_data()
+
+Converting GML script: ${project_dir}\scripts\load_data\load_data.gml
+Converted description /// @description load_data()
+
+Converting GML script: ${project_dir}\scripts\scrMobileDisplay\scrMobileDisplay.gml
+Converted builtin - line 9: view_yview[0] = 0 -> __view_set( e__VW.YView, 0, 0 )
+Converted builtin - line 5: view_wview[0] = 360 -> __view_set( e__VW.WView, 0, 360 )
+Converted builtin - line 7: view_hview[0] = ratio * 640 -> __view_set( e__VW.HView, 0, ratio * 640 )
+Converted builtin - line 3: view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 1: view_wport[0] = display_get_width( -> __view_set( e__VW.WPort, 0, display_get_width( )
+Converted builtin - line 3: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 2: view_hport[0] = display_get_height( -> __view_set( e__VW.HPort, 0, display_get_height( )
+
+Converting GML script: ${project_dir}\scripts\bhpg_pattern_step\bhpg_pattern_step.gml
+Converted description /// @description bhpg_pattern_step()
+
+Converting GML script: ${project_dir}\scripts\bhpg_pattern_init\bhpg_pattern_init.gml
+Converted description /// @description bhpg_pattern_init(number of bullets, bullet spread, start angle, total arrays, array spread, begin spin speed, spin change rate, spin reverse, max spin speed, fire rate, object width,object height,x offset,y offset)/// @param number of bullets
+/// @param  bullet spread
+/// @param  start angle
+/// @param  total arrays
+/// @param  array spread
+/// @param  begin spin speed
+/// @param  spin change rate
+/// @param  spin reverse
+/// @param  max spin speed
+/// @param  fire rate
+/// @param  object width
+/// @param object height
+/// @param x offset
+/// @param y offset
+
+Converting GML script: ${project_dir}\scripts\bhpg_bullet_init\bhpg_bullet_init.gml
+Converted description /// @description bhpg_bullet_init(bullet object, bullet speed, bullet acceleration, bullet curve);/// @param bullet object
+/// @param  bullet speed
+/// @param  bullet acceleration
+/// @param  bullet curve
+
+!!! Font f_score uses a font (Silkscreen) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\f_score\f_score.gms1.png
+Converting GML script: ${project_dir}\objects\obj_game\Create_0.gml
+Converted builtin - line 52: background_vspeed[0] = 0 -> __background_set( e__BG.VSpeed, 0, 0 )
+Converted description /// @description  initialize game object
+
+Converting GML script: ${project_dir}\objects\obj_game\Other_3.gml
+Converted description /// @description destroy part system
+
+Converting GML script: ${project_dir}\objects\obj_screen_flash\Draw_0.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description  draw screen flash
+
+Converting GML script: ${project_dir}\objects\obj_view_controller\Create_0.gml
+Converted description /// @description  initialize the view controller
+
+Converting GML script: ${project_dir}\objects\obj_view_controller\Alarm_0.gml
+Converted description /// @description  set screenshake to 0
+
+Converting GML script: ${project_dir}\objects\obj_view_controller\Step_0.gml
+Converted builtin - line 2: view_xview[0] = random(screnshake) -> __view_set( e__VW.XView, 0, random(screnshake) )
+Converted builtin - line 3: view_yview[0] = random(screnshake) -> __view_set( e__VW.YView, 0, random(screnshake) )
+Converted description /// @description update the view position
+
+Converting GML script: ${project_dir}\objects\obj_particle_creater\Create_0.gml
+Converted description /// @description initialize particle creater
+
+Converting GML script: ${project_dir}\objects\obj_particle_creater\Step_0.gml
+Converted description /// @description create the particles and die
+
+Converting GML script: ${project_dir}\objects\obj_level\Create_0.gml
+Converted description /// @description create level
+
+Converting GML script: ${project_dir}\objects\obj_backgrounds_planets\Create_0.gml
+Converted builtin - line 4: background_visible[planeta] = true -> __background_set( e__BG.Visible, planeta, true )
+Converted builtin - line 5: background_vspeed[planeta] = 0.04 -> __background_set( e__BG.VSpeed, planeta, 0.04 )
+Converted builtin - line 6: background_vspeed[0] = 0 -> __background_set( e__BG.VSpeed, 0, 0 )
+Converted builtin - line 7: background_vspeed[1] = .05 -> __background_set( e__BG.VSpeed, 1, .05 )
+
+Converting GML script: ${project_dir}\objects\obj_danger\Step_0.gml
+Converted description /// @description Animacion inicial
+
+Converting GML script: ${project_dir}\objects\obj_highscore\Other_2.gml
+Converted description /// @description create game object 
+
+Converting GML script: ${project_dir}\objects\obj_highscore\Draw_0.gml
+Converted description /// @description  draw Highscore
+
+Converting GML script: ${project_dir}\objects\obj_button_parent\Create_0.gml
+Converted description /// @description initialize button
+
+Converting GML script: ${project_dir}\objects\obj_button_parent\Mouse_11.gml
+Converted description /// @description  overout mouse
+
+Converting GML script: ${project_dir}\objects\obj_button_parent\Mouse_10.gml
+Converted description /// @description  over button
+
+Converting GML script: ${project_dir}\objects\obj_button_parent\Draw_0.gml
+Converted description /// @description  draw the button
+
+Converting GML script: ${project_dir}\objects\obj_quit_button\Create_0.gml
+Converted description /// @description initialize the button
+
+Converting GML script: ${project_dir}\objects\obj_quit_button\Mouse_4.gml
+Converted description /// @description quit the game
+
+Converting GML script: ${project_dir}\objects\obj_menu_button\Create_0.gml
+Converted description /// @description initialize the button
+
+Converting GML script: ${project_dir}\objects\obj_menu_button\Mouse_4.gml
+Converted description /// @description go to the menu
+
+Converting GML script: ${project_dir}\objects\obj_music_on_off\Create_0.gml
+Converted description /// @description initialize the button
+
+Converting GML script: ${project_dir}\objects\obj_music_on_off\Mouse_4.gml
+Converted description /// @description control de music
+
+Converting GML script: ${project_dir}\objects\obj_fx_on_off\Create_0.gml
+Converted description /// @description initialize the button
+
+Converting GML script: ${project_dir}\objects\obj_fx_on_off\Mouse_4.gml
+Converted description /// @description fx on/off
+
+Converting GML script: ${project_dir}\objects\obj_start_button\Create_0.gml
+Converted description /// @description initialize the button
+
+Converting GML script: ${project_dir}\objects\obj_start_button\Mouse_4.gml
+Converted description /// @description start the game
+
+Converting GML script: ${project_dir}\objects\obj_start_button2\Create_0.gml
+Converted description /// @description initialize the button
+
+Converting GML script: ${project_dir}\objects\obj_start_button2\Mouse_4.gml
+Converted description /// @description start the game
+
+Converting GML script: ${project_dir}\objects\obj_start_button3\Create_0.gml
+Converted description /// @description initialize the button
+
+Converting GML script: ${project_dir}\objects\obj_start_button3\Mouse_4.gml
+Converted description /// @description start the game
+
+Converting GML script: ${project_dir}\objects\obj_hp\Create_0.gml
+Converted description /// @description initialize hp
+
+Converting GML script: ${project_dir}\objects\obj_hp\Step_0.gml
+Converted description /// @description  control the armor
+
+Converting GML script: ${project_dir}\objects\obj_score\Draw_0.gml
+Converted description /// @description  draw score
+
+Converting GML script: ${project_dir}\objects\obj_powerup_parent\Create_0.gml
+Converted description /// @description  initialize powerup
+
+Converting GML script: ${project_dir}\objects\obj_powerup_parent\Step_0.gml
+Converted description /// @description control the powerup
+
+Converting GML script: ${project_dir}\objects\obj_MainCharacter\Create_0.gml
+Converted description /// @description  create alarm
+
+Converting GML script: ${project_dir}\objects\obj_MainCharacter\Alarm_0.gml
+Converted description /// @description create the lasers
+
+Converting GML script: ${project_dir}\objects\obj_MainCharacter\Step_2.gml
+Converted description /// @description Limitador
+
+Converting GML script: ${project_dir}\objects\obj_MainCharacter\Step_0.gml
+Converted description /// @description code for MC
+
+Converting GML script: ${project_dir}\objects\obj_MainCharacter\Collision_027cd3ae-60ee-4407-8e16-8f82e78f00b4.gml
+Converted description /// @description  poweup shield
+
+Converting GML script: ${project_dir}\objects\obj_MainCharacter\Collision_c3ceac94-ba0a-4b35-ac19-e36904ae558c.gml
+Converted description /// @description  poweup hp
+
+Converting GML script: ${project_dir}\objects\obj_MainCharacter\Collision_f1d5e237-1ae1-4840-8c85-ad38c6a987d1.gml
+Converted description /// @description  colect laser powerup
+
+Converting GML script: ${project_dir}\objects\obj_MainCharacter\Mouse_50.gml
+Converted description /// @description  move towars mouse
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_ceeb1d9d-7783-4e66-acad-4015b1d370aa.gml
+Converted description /// @description code for colition with boss_10
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_e4f73401-4fa3-495c-909b-66738d9551e9.gml
+Converted description /// @description code for colition with turret
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_670afe0b-6a56-428a-9b3f-ed250e3781e9.gml
+Converted description /// @description code for colition with turret
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_6cb9a4a9-acd4-4ac9-a13a-2166669bda10.gml
+Converted description /// @description code for colition with turret
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_87b951e5-fac1-4a14-ab47-4cf64750f94d.gml
+Converted description /// @description code for colition with turret
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_8d807358-11a3-4201-b381-5a7bdd390ed6.gml
+Converted description /// @description code for colition with turret
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_a220757c-1e4f-4c3d-9f13-b392b8bdb835.gml
+Converted description /// @description code for colition with turret
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_ad5e62c2-130d-40ea-b1d4-924358710655.gml
+Converted description /// @description code for colition with turret
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_671127f7-f053-4da1-b830-3562094a938a.gml
+Converted description /// @description code for colition with turret
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_03ee13f9-1020-4f5d-b5c2-f670cc2c2eab.gml
+Converted description /// @description code for colition with turret
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_4118408b-beec-4277-aab9-dc9a1e9e0de3.gml
+Converted description /// @description code for colition with turret
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Collision_70d91ce6-6010-46a5-9975-e9e7f0cd283d.gml
+Converted description /// @description code for colition with enemy one
+
+Converting GML script: ${project_dir}\objects\obj_Laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_flare\Step_0.gml
+Converted description /// @description fade
+
+Converting GML script: ${project_dir}\objects\obj_explotion_mc\Create_0.gml
+Converted description /// @description create the explotion
+
+Converting GML script: ${project_dir}\objects\obj_explotion_mc\Step_0.gml
+Converted description /// @description  scale and alpha control
+
+Converting GML script: ${project_dir}\objects\obj_shield\Create_0.gml
+Converted description /// @description create the shield
+
+Converting GML script: ${project_dir}\objects\obj_shield\Step_2.gml
+Converted description /// @description control the shield
+
+Converting GML script: ${project_dir}\objects\obj_enemy_one\Create_0.gml
+Converted description /// @description initialize the enemy one
+
+Converting GML script: ${project_dir}\objects\obj_enemy_two\Create_0.gml
+Converted description /// @description initialize the enemy one
+
+Converting GML script: ${project_dir}\objects\obj_enemy_two\Alarm_0.gml
+Converted description /// @description  fire alarm laser
+
+Converting GML script: ${project_dir}\objects\obj_enemy_four\Create_0.gml
+Converted description /// @description initialize the enemy one
+
+Converting GML script: ${project_dir}\objects\obj_enemy_four\Alarm_0.gml
+Converted description /// @description  fire alarm laser
+
+Converting GML script: ${project_dir}\objects\o_enemy_parent\Step_0.gml
+Converted description /// @description  control the enemy
+
+Converting GML script: ${project_dir}\objects\o_enemy_spawner\Create_0.gml
+Converted description /// @description initialize the enemy spawner
+
+Converting GML script: ${project_dir}\objects\o_enemy_spawner\Alarm_3.gml
+Converted description /// @description  create boss
+
+Converting GML script: ${project_dir}\objects\o_enemy_spawner\Alarm_1.gml
+Converted description /// @description create powerup
+
+Converting GML script: ${project_dir}\objects\o_enemy_spawner\Alarm_0.gml
+Converted description /// @description create the enemys
+
+Converting GML script: ${project_dir}\objects\obj_enemy_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_enemy_laser\Collision_d8efd8a4-ddd9-4826-8656-580a940efebd.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_enemy_laser\Collision_596813bd-c1e6-45f3-a79f-a79d21f620eb.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_enemy_laser\Collision_b0e7d8ff-2b26-47ca-9683-78b306657f6c.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_enemy_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_explotion_center\Create_0.gml
+Converted description /// @description  initialize explotion center
+
+Converting GML script: ${project_dir}\objects\obj_explotion_center\Step_0.gml
+Converted description /// @description  fade
+
+Converting GML script: ${project_dir}\objects\obj_black_fade\Step_0.gml
+Converted description /// @description fade
+
+Converting GML script: ${project_dir}\objects\obj_enemy_three\Create_0.gml
+Converted description /// @description initialize the enemy three
+
+Converting GML script: ${project_dir}\objects\obj_enemy_three\Alarm_0.gml
+Converted description /// @description  attack the MC
+
+Converting GML script: ${project_dir}\objects\obj_enemy_three\Step_0.gml
+Converted description /// @description  control the enemy
+
+Converting GML script: ${project_dir}\objects\obj_damage\Create_0.gml
+Converted description /// @description  create the damage
+
+Converting GML script: ${project_dir}\objects\obj_damage\Step_2.gml
+Converted description /// @description destroy
+
+Converting GML script: ${project_dir}\objects\obj_torre_parent\Create_0.gml
+Converted description /// @description initialize tower
+
+Converting GML script: ${project_dir}\objects\obj_torre_parent\Step_0.gml
+Converted description /// @description  control the enemy
+
+Converting GML script: ${project_dir}\objects\obj_boss_torre3\Create_0.gml
+Converted description /// @description  initialize the turret
+
+Converting GML script: ${project_dir}\objects\obj_boss_torre3\Alarm_0.gml
+Converted description /// @description  fire
+
+Converting GML script: ${project_dir}\objects\obj_boss_torre3\Step_2.gml
+Converted description /// @description control the turret
+
+Converting GML script: ${project_dir}\objects\obj_boss_torre2\Create_0.gml
+Converted description /// @description  initialize the turret
+
+Converting GML script: ${project_dir}\objects\obj_boss_torre2\Alarm_0.gml
+Converted description /// @description  fire
+
+Converting GML script: ${project_dir}\objects\obj_boss_torre2\Step_2.gml
+Converted description /// @description control the turret
+
+Converting GML script: ${project_dir}\objects\obj_boss1\Create_0.gml
+Converted description /// @description initialize the boss one
+
+Converting GML script: ${project_dir}\objects\obj_boss1\Step_0.gml
+Converted description /// @description boss movement
+
+Converting GML script: ${project_dir}\objects\obj_boss1\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw healthbar
+
+Converting GML script: ${project_dir}\objects\obj_boss_torre1\Create_0.gml
+Converted description /// @description  initialize the turret
+
+Converting GML script: ${project_dir}\objects\obj_boss_torre1\Alarm_0.gml
+Converted description /// @description  fire
+
+Converting GML script: ${project_dir}\objects\obj_boss_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss_laser\Collision_7e8d0da1-cb0c-4bf7-829d-c8aca64bcbfe.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss_disparo\Collision_e5510f9c-cc48-4fcd-8ebb-562bf447992a.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss_disparo\Collision_88d1fb45-836c-48b5-b581-387e21f82f7f.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss_disparo\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss2_2\Alarm_2.gml
+Converted description /// @description No mover
+
+Converting GML script: ${project_dir}\objects\obj_boss2_2\Alarm_1.gml
+Converted description /// @description Disparo
+
+Converting GML script: ${project_dir}\objects\obj_boss2_2\Alarm_0.gml
+Converted description /// @description Cambio
+
+Converting GML script: ${project_dir}\objects\obj_boss2_2\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw healthbar
+
+Converting GML script: ${project_dir}\objects\obj_boss3_torre1\Create_0.gml
+Converted description /// @description  initialize the turret
+
+Converting GML script: ${project_dir}\objects\obj_boss3_torre1\Alarm_0.gml
+Converted description /// @description  fire
+
+Converting GML script: ${project_dir}\objects\obj_boss3_torre2\Create_0.gml
+Converted description /// @description  initialize the turret
+
+Converting GML script: ${project_dir}\objects\obj_boss3_torre2\Alarm_0.gml
+Converted description /// @description  fire
+
+Converting GML script: ${project_dir}\objects\obj_boss3\Create_0.gml
+Converted description /// @description initialize the boss three
+
+Converting GML script: ${project_dir}\objects\obj_boss3\Step_0.gml
+Converted description /// @description boss movement
+
+Converting GML script: ${project_dir}\objects\obj_boss3\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw healthbar
+
+Converting GML script: ${project_dir}\objects\obj_torre_parent_boss3\Create_0.gml
+Converted description /// @description initialize tower
+
+Converting GML script: ${project_dir}\objects\obj_torre_parent_boss3\Step_0.gml
+Converted description /// @description  control the enemy
+
+Converting GML script: ${project_dir}\objects\obj_boss3_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss3_laser\Collision_d07fd01e-0b96-47e6-a6b2-901ce9bfa58b.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss3_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss_4\Create_0.gml
+Converted description /// @description initialize the boss three
+
+Converting GML script: ${project_dir}\objects\obj_boss_4\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw healthbar
+
+Converting GML script: ${project_dir}\objects\obj_boss4_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss4_laser\Collision_9e4ebfa9-517a-44b0-907f-4b4e5f001c7e.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss4_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss_5\Create_0.gml
+Converted description /// @description initialize the boss one
+
+Converting GML script: ${project_dir}\objects\obj_boss_5\Alarm_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_boss_5\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw healthbar
+
+Converting GML script: ${project_dir}\objects\obj_boss5_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss5_laser\Collision_037a6e64-0b3e-4e9f-9678-12f3aabce512.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss5_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss5_laser_2\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss5_laser_2\Collision_1c115e17-bbee-459a-9b6d-0e83b5d9a430.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss5_laser_2\Collision_1c38d606-3bd0-46e4-9ee0-e394e3db1cf9.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss5_laser_2\Collision_883ee98e-fe10-4541-9f9b-60769e9dc0d5.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss5_laser_2\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss_6\Create_0.gml
+Converted description /// @description initialize the boss one
+
+Converting GML script: ${project_dir}\objects\obj_boss_6\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw healthbar
+
+Converting GML script: ${project_dir}\objects\obj_boss_6_laser_2\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss_6_laser_2\Collision_8a66fae0-9df9-4f13-9efa-79a985900ed8.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss_6_laser_2\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss6_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss6_laser\Collision_4b865dc9-7822-4e50-ab11-884d2bf7763e.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss6_laser\Collision_a097d0f0-cde9-44d8-94a1-a6f539a26fe3.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss6_laser\Collision_860287d9-a0a6-4597-8864-64c10252e5f4.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss6_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_explosion_boss_6\Step_0.gml
+Converted description /// @description fade
+
+Converting GML script: ${project_dir}\objects\obj_boss_7\Create_0.gml
+Converted description /// @description initialize the boss one
+
+Converting GML script: ${project_dir}\objects\obj_boss_7\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw healthbar
+
+Converting GML script: ${project_dir}\objects\obj_boss7_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss7_laser\Collision_a9d6669e-9828-415b-b9e1-3acee1af4aca.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss7_laser\Collision_664b7262-396d-41d5-8db1-1376705a670f.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss7_laser\Collision_e4415c8f-881b-48e9-88e9-47842b10299d.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss7_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss7_fase2_2\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss7_fase2_2\Collision_717db79c-51bd-4254-9c40-2ccfa5968793.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss7_fase2_2\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss7_fase2_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss7_fase2_laser\Collision_62d2c075-20fe-4841-8fb6-b3a5058669b4.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss7_fase2_laser\Collision_00b511ef-cf1e-4098-a7b1-d9e230aed129.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss7_fase2_laser\Collision_0bc7cec8-2e21-4708-b469-4debf3dd14bf.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss7_fase2_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss_8\Create_0.gml
+Converted description /// @description initialize the boss three
+
+Converting GML script: ${project_dir}\objects\obj_boss_8\Step_0.gml
+Converted description /// @description boss movement
+
+Converting GML script: ${project_dir}\objects\obj_boss_8\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw healthbar
+
+Converting GML script: ${project_dir}\objects\obj_boss_8_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss_8_laser\Collision_39c18683-3fbb-40d3-9368-66ebf6b8702f.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss_8_laser\Collision_9540937e-260b-452e-89d9-6e67fa4bc704.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss_8_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss_9\Create_0.gml
+Converted description /// @description initialize the boss one
+
+Converting GML script: ${project_dir}\objects\obj_boss_9\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw healthbar
+
+Converting GML script: ${project_dir}\objects\obj_boss_9_2_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss_9_2_laser\Collision_2e6bd930-2db3-41e6-a5bf-c78047711e52.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss_9_2_laser\Collision_2364bdff-9758-47fa-ab50-14eb217f6504.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss_9_2_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss_9_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss_9_laser\Collision_12477584-d5fb-4d0e-af17-3793e1ec0307.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss_9_laser\Collision_330e413b-496d-481b-916b-032b2e994087.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss_9_laser\Collision_c8e4027d-eb4c-4306-bb1e-f1582be40a46.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss_9_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+Converting GML script: ${project_dir}\objects\obj_boss_10\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description draw healthbar
+
+Converting GML script: ${project_dir}\objects\obj_scren_flash_laser\Draw_0.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description  draw screen flash
+
+Converting GML script: ${project_dir}\objects\obj_boss_10_torre\Create_0.gml
+Converted description /// @description  initialize the turret
+
+Converting GML script: ${project_dir}\objects\obj_boss_10_torre\Alarm_0.gml
+Converted description /// @description  fire
+
+Converting GML script: ${project_dir}\objects\obj_boss_10_laser\Create_0.gml
+Converted description /// @description initialize laser object
+
+Converting GML script: ${project_dir}\objects\obj_boss_10_laser\Collision_e74120ed-01a5-4400-8878-419ab7e8c9b6.gml
+Converted description /// @description code for colition with MC
+
+Converting GML script: ${project_dir}\objects\obj_boss_10_laser\Other_0.gml
+Converted description /// @description destroy the laser
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'a_enemy_laser' - setting to default audio group
+Missing audiogroup for sound: 'a_space_music' - setting to default audio group
+Missing audiogroup for sound: 'a_explode' - setting to default audio group
+Missing audiogroup for sound: 'a_hit' - setting to default audio group
+Missing audiogroup for sound: 'a_laser2' - setting to default audio group
+Missing audiogroup for sound: 'a_laser' - setting to default audio group
+Missing audiogroup for sound: 'a_powerup' - setting to default audio group
+Missing audiogroup for sound: 'a_ship_hit' - setting to default audio group
+Missing audiogroup for sound: 'a_select' - setting to default audio group
+Missing audiogroup for sound: 'a_danger' - setting to default audio group
+Missing audiogroup for sound: 'a_shield_hit' - setting to default audio group
+Missing audiogroup for sound: 'a_boss2_hit' - setting to default audio group
+Missing audiogroup for sound: 'a_laser_charge' - setting to default audio group
+Missing audiogroup for sound: 'a_laser_shoot' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'

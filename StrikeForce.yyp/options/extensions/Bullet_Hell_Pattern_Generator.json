@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "Bullet_Hell_Pattern_Generator",
+    "path": "extensions/Bullet_Hell_Pattern_Generator/Bullet_Hell_Pattern_Generator.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}

@@ -1,0 +1,5 @@
+image_speed = 1;
+create = true;
+number = 0;
+
+
